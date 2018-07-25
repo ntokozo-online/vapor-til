@@ -13,7 +13,7 @@ let package = Package(
     targets: [
         .target(name: "App", dependencies: ["FluentPostgreSQL", "Vapor"]),
         .target(name: "Run", dependencies: ["App"]),
-        .testTarget(name: "AppTests", dependencies: ["App"])
+        .testTarget(name: "AppTests", dependencies: ["App"]),
     ]
 )
 
